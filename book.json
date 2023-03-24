@@ -1,0 +1,79 @@
+{
+    "title": "zhaoxw",
+    "description": "study node",
+    "author": "zhaoxw",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "variables": {},
+    "extension": null,
+    "generator": "site",
+    "root": ".",
+    "links": {
+        "sidebar": {
+            "Home": "http://www.zhaoxw.com"
+        }
+    },
+    "plugins": [
+        "toc",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "-highlight",
+        "anchor-navigation-ex",
+        "simple-mind-map",
+        "multipart",
+        "prism-themes",
+        "emphasize",
+        "katex",
+        "splitter",
+        "tbfed-pagefooter",
+        "expandable-chapters-small",
+        "sectionx",
+        "simple-page-toc",
+        "anchor-navigation-ex",
+        "terminal",
+        "graph",
+        "klipse",
+        "diff",
+        "simple-mind-map",
+        "code"
+
+    ],
+
+    "pluginsConfig": {
+        "simple-mind-map":{
+            "preset": "colorful"
+        },
+        "toc": {
+            "addClass": true,
+            "className": "toc"
+        },
+        "prism-themes": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © zhaoxw 2023",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": false,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        },
+        "terminal": {
+            "copyButtons": true,
+            "fade": false,
+            "style": "flat"
+        }
+
+    }
+}

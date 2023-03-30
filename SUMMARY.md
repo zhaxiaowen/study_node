@@ -15,6 +15,7 @@
 ## 编程
 * [Python](python/README.md)
     * [编码规范](python/code_standard.md)
+    * [CBU海选代码发现的TOP10问题](python/code_top_point.md)
 * [Go](go/README.md)
     * [云原生学习路线](go/learning_route.md)
 
@@ -99,10 +100,12 @@
     * [elk](install/k8s/elk.md)
     * [monitor](install/k8s/monitor.md)
     * [gitlab](install/k8s/gitlab.md)
+    * [gitbook](install/k8s/gitbook.md)
 
 ## 脚本
 * [脚本](scripts/README.md)
     * [Python](scripts/python/about.md)
+        * [pathlib](scripts/python/pathlib.md)
         * [ansible](scripts/python/ansible.md)
         * [log](scripts/python/log.md)
         * [paramiko](scripts/python/paramiko.md)
@@ -114,3 +117,4 @@
         * [cv2 图片处理](scripts/python/cv2_picture.md)
     * [Go](scripts/go/about.md)
     * [Shell](scripts/shell/about.md)
+
